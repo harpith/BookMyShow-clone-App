@@ -15,6 +15,7 @@ const MoviePage = () => {
   const { movie, setMovie } = useContext(MovieContext);
 
   const [cast, setCast] = useState([]);
+  
   const [similarMovies, setSimilarMovies] = useState([]);
   const [recommendedMovies, setRecommendedMovies] = useState([]);
 
